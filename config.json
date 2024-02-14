@@ -1,0 +1,27 @@
+{
+  "sites": [
+    {
+      "title": "darknet",
+      "url": "https://www.darknetdiaries.com/",
+      "sel_url": "https://darknetdiaries.com/",
+      "all_episodes": true,
+      "range": false,
+      "episode_range": "1,10",
+      "select": false,
+      "select_episodes": ["8", "12", "16", "20", "24", "48", "128"],
+      "text_destination": "dn/"
+    },
+    {
+      "title": "west wing",
+      "url": "http://thewestwingweekly.com/index/",
+      "all_episodes": true,
+      "select": false,
+      "select_episodes": ["101", "105", "501"],
+      "seasons": false,
+      "season_list": ["2", "3"],
+      "no_transcript": ["2016/3/11/coming-soon", "000", "whatsnext", "308", "004", "020"],
+      "pdf_destination": "ww_pdf/",
+      "text_destination": "ww_text/"
+    }
+  ]
+}
