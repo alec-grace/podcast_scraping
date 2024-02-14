@@ -1,3 +1,9 @@
+# File: darknet_transcripts.py
+# Author: Alec Grace
+# Created: 13 Feb 2024
+# Purpose:
+#   Provide functions necessary to deal with downloading Darknet Diaries
+#   podcast transcripts and converting them to text files
 import os
 import re
 import time

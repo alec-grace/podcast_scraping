@@ -1,3 +1,9 @@
+# File: main.py
+# Author: Alec Grace
+# Created: 13 Feb 2024
+# Purpose:
+#   Driver for web scraper to pull transcripts of multiple podcasts
+#   and store them as cleaned text files
 import json
 import os.path
 from darknet_transcripts import *

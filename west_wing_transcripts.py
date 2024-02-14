@@ -1,3 +1,9 @@
+# File: west_wing_transcripts.py
+# Author: Alec Grace
+# Created: 13 Feb 2024
+# Purpose:
+#   Provide functions necessary to deal with downloading The West
+#   Wing Weekly podcast transcripts and converting them to text files
 import os
 import re
 import time
@@ -168,7 +174,7 @@ def get_select_ww_pdfs(config, episodes: list[str]):
             with open(config["pdf_destination"] + ep_page[38:] + ".pdf", "wb") as file:
                 file.write(contents)
                 file.close()
-
+    ww_to_text(config)
     print("ww retry pdfs done")
 
 
