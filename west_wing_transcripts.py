@@ -168,7 +168,7 @@ def get_select_ww_pdfs(config, episodes: list[str]):
             with open(config["pdf_destination"] + ep_page[38:] + ".pdf", "wb") as file:
                 file.write(contents)
                 file.close()
-
+    ww_to_text(config)
     print("ww retry pdfs done")
 
 
